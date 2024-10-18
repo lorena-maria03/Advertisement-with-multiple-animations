@@ -32,7 +32,6 @@ Alphabet decoder
 The data input from the alphabet decoder is a 5-bit binary number, which enters a register where each number corresponds to a 7-bit code, specific to the cathode, which is transposed as an output from the component.
 
 Multiplexer 8:1
-
 The role of the 8:1 Multiplexer is to make the selection between animation modes. It works exactly like the 4:1 Multiplexer, described above, only this is modified to show 4 outputs, each specific to an anode. In the project, the input is a 3-bit number, and the outputs are 4-bit.
 
 Animations
